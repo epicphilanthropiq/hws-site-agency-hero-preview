@@ -1,0 +1,17 @@
+{
+  "name": "Hello World Studio",
+  "short_name": "HWS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070b14",
+  "theme_color": "#070b14",
+  "description": "AI Powered. Human Inspired. Future Ready.",
+  "icons": [
+    {
+      "src": "/assets/images/hello-world-studio-logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
