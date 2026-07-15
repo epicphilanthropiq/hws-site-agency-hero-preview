@@ -1,13 +1,14 @@
 # Hello World Studio Preview
 
-Current release:
+Current flagship pages:
 - Homepage v4
 - AI Academy v1
+- Digital Products v1
 
-The AI Academy page includes:
-- Premium academy hero
-- Flagship programme catalogue
-- Interactive learning path selector
-- Practical outcomes section
-- Accessible responsive behaviour
-- SEO metadata and EducationalOrganization schema
+The Digital Products page is grounded in the real Hello World Studio ecosystem:
+- Studio in a Box
+- HWS Content Engine
+- Hello World AI Music System
+- Legacy Voice Kit
+- Creator guides and learning products
+- Low-budget, accessible, solo-creator-friendly positioning
