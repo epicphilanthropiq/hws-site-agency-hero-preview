@@ -93,3 +93,31 @@
   resize();draw();
   window.addEventListener('resize', () => {cancelAnimationFrame(raf);resize();draw();}, {passive:true});
 })();
+
+document.addEventListener('DOMContentLoaded', () => {
+  const dropdown = document.querySelector('.nav-dropdown');
+  const toggle = document.querySelector('.nav-dropdown-toggle');
+
+  if (dropdown && toggle) {
+    toggle.addEventListener('click', (event) => {
+      event.stopPropagation();
+      const open = dropdown.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', String(open));
+    });
+
+    document.addEventListener('click', (event) => {
+      if (!dropdown.contains(event.target)) {
+        dropdown.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        dropdown.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.focus();
+      }
+    });
+  }
+});

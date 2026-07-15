@@ -1,3 +1,10 @@
-# Hello World Studio Preview
+# Hello World Studio Integrated Preview
 
-Flagship pages now include Homepage, AI Academy, Digital Products, Content Studio, Legacy Services, Business Hub, Publishers, Music, About and Contact.
+This release connects the full ecosystem through:
+- Shared responsive navigation
+- Explore mega menu
+- Complete homepage ecosystem links
+- Shared five-column footer
+- Related-page pathways
+- Active page states
+- Keyboard and mobile dropdown support
