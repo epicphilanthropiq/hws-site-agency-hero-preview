@@ -81,6 +81,10 @@
     {
       "source": "/agency-in-a-box",
       "destination": "/agency-in-a-box.html"
+    },
+    {
+      "source": "/marketplace",
+      "destination": "/marketplace.html"
     }
   ]
 }
