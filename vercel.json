@@ -73,6 +73,14 @@
     {
       "source": "/contact",
       "destination": "/contact.html"
+    },
+    {
+      "source": "/tools",
+      "destination": "/tools.html"
+    },
+    {
+      "source": "/agency-in-a-box",
+      "destination": "/agency-in-a-box.html"
     }
   ]
 }
