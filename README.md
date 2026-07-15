@@ -1,10 +1,13 @@
-# Hello World Studio Isolated Preview
+# Hello World Studio Preview
 
-Premium static rebuild for the isolated Vercel project `hws-site-agency-hero-preview`.
+Current release:
+- Homepage v4
+- AI Academy v1
 
-This version includes:
-- Logo-led premium hero
-- Connected ecosystem showcase
-- Featured impact projects
-- Human-centred brand principles
-- Responsive and reduced-motion support
+The AI Academy page includes:
+- Premium academy hero
+- Flagship programme catalogue
+- Interactive learning path selector
+- Practical outcomes section
+- Accessible responsive behaviour
+- SEO metadata and EducationalOrganization schema
