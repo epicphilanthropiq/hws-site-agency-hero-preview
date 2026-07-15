@@ -4,11 +4,12 @@ Current flagship pages:
 - Homepage v4
 - AI Academy v1
 - Digital Products v1
+- Content Studio v1
 
-The Digital Products page is grounded in the real Hello World Studio ecosystem:
-- Studio in a Box
-- HWS Content Engine
-- Hello World AI Music System
-- Legacy Voice Kit
-- Creator guides and learning products
-- Low-budget, accessible, solo-creator-friendly positioning
+The Content Studio page reflects real Hello World Studio work:
+- TikTok and social media strategy
+- Healthcare education
+- Podcast and YouTube production
+- AI music visuals and release campaigns
+- Brand systems and digital experiences
+- Africa and diaspora-aware creative work
