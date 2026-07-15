@@ -1,4 +1,10 @@
-# HWS Site Agency Hero Preview
+# Hello World Studio Isolated Preview
 
-Rebuilt static preview for Hello World Studio. Isolated from production.
-GitHub deployment connected to isolated Vercel preview.
+Premium static rebuild for the isolated Vercel project `hws-site-agency-hero-preview`.
+
+This version includes:
+- Logo-led premium hero
+- Connected ecosystem showcase
+- Featured impact projects
+- Human-centred brand principles
+- Responsive and reduced-motion support
