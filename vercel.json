@@ -85,6 +85,14 @@
     {
       "source": "/marketplace",
       "destination": "/marketplace.html"
+    },
+    {
+      "source": "/press-book-engine",
+      "destination": "/press-book-engine.html"
+    },
+    {
+      "source": "/release-system-studio",
+      "destination": "/release-system-studio.html"
     }
   ]
 }
