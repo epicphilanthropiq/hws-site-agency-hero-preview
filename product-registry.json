@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "updated": "2026-07-16",
+  "products": [
+    {
+      "id": "HWS-001",
+      "name": "HW Agency in a Box",
+      "division": "Business Hub",
+      "status": "live",
+      "family_model": true,
+      "editions": [
+        {
+          "name": "Done-for-You",
+          "delivery": "service",
+          "checkout": "quote"
+        },
+        {
+          "name": "Agency Edition",
+          "delivery": "licensed digital system",
+          "checkout": "https://shop.beacons.ai/helloworldstudiozw/ad54294f-316a-49d5-8720-d4549abf9c95"
+        },
+        {
+          "name": "Enterprise",
+          "delivery": "planned",
+          "status": "future"
+        }
+      ],
+      "core_module": "Client Content Engine",
+      "app_url": "https://hws-agency-box.netlify.app/"
+    },
+    {
+      "id": "HWS-002",
+      "name": "HW Press Book Engine",
+      "division": "Hello World Publishers",
+      "status": "live",
+      "app_url": "https://hw-press-book-engine.vercel.app/"
+    },
+    {
+      "id": "HWS-003",
+      "name": "HW Release System Studio",
+      "division": "Hello World Music",
+      "status": "live",
+      "app_url": "https://hw-release-system-studio-6ahgoiy1v.vercel.app/",
+      "embedded_modules": [
+        "HitMaker ZW"
+      ]
+    }
+  ]
+}
