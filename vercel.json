@@ -286,6 +286,26 @@
       "source": "/FLAGSHIP-PRODUCT-VISUALS.md",
       "destination": "/404",
       "permanent": false
+    },
+    {
+      "source": "/product-registry.json",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/external-link-registry.json",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/FINAL-CONVERSION-RELEASE.md",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/LAUNCH-DECISION-REPORT.md",
+      "destination": "/404",
+      "permanent": false
     }
   ]
 }

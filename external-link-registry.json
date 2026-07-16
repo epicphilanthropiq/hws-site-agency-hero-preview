@@ -1,0 +1,73 @@
+[
+  {
+    "url": "https://beacons.ai/helloworldstudiozw",
+    "domain": "beacons.ai",
+    "category": "checkout_or_store",
+    "pages": [
+      "marketplace.html"
+    ],
+    "labels": [
+      "Visit HWS Beacons Store \u2192"
+    ]
+  },
+  {
+    "url": "https://hw-press-book-engine.vercel.app/",
+    "domain": "hw-press-book-engine.vercel.app",
+    "category": "live_application",
+    "pages": [
+      "index.html",
+      "marketplace.html",
+      "press-book-engine.html"
+    ],
+    "labels": [
+      "02 Publishing Turn your idea into a book Move through research, writing, packaging and launch. Open Book Engine \u2192",
+      "02 Write and publish a book Move through research, validation, outlining, writing, editing, listing and launch. Open the Book Engine \u2192",
+      "Launch Tool \u2192",
+      "Launch the Book Engine",
+      "Launch Book Engine",
+      "Launch HW Press Book Engine"
+    ]
+  },
+  {
+    "url": "https://hw-release-system-studio-6ahgoiy1v.vercel.app/",
+    "domain": "hw-release-system-studio-6ahgoiy1v.vercel.app",
+    "category": "live_application",
+    "pages": [
+      "index.html",
+      "marketplace.html",
+      "release-system-studio.html"
+    ],
+    "labels": [
+      "03 Music Create and release your music Use one system for creation, preparation and promotion. Open Release System \u2192",
+      "03 Create and release music Use one structured system for music creation, release preparation and promotion. Open Release System Studio \u2192",
+      "Launch Tool \u2192",
+      "Launch Release System",
+      "Launch HW Release System Studio"
+    ]
+  },
+  {
+    "url": "https://hws-agency-box.netlify.app/",
+    "domain": "hws-agency-box.netlify.app",
+    "category": "live_application",
+    "pages": [
+      "agency-in-a-box.html"
+    ],
+    "labels": [
+      "Preview the Engine",
+      "Preview the Agency Edition \u2192"
+    ]
+  },
+  {
+    "url": "https://shop.beacons.ai/helloworldstudiozw/ad54294f-316a-49d5-8720-d4549abf9c95",
+    "domain": "shop.beacons.ai",
+    "category": "checkout_or_store",
+    "pages": [
+      "agency-in-a-box.html",
+      "marketplace.html"
+    ],
+    "labels": [
+      "Buy Agency Edition",
+      "Buy Agency Edition \u2192"
+    ]
+  }
+]

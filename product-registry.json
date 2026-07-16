@@ -1,49 +1,33 @@
 {
-  "version": "1.0",
-  "updated": "2026-07-16",
+  "last_reviewed": "2026-07-16",
+  "currency": "USD unless otherwise confirmed",
   "products": [
     {
-      "id": "HWS-001",
+      "code": "HWS-001",
       "name": "HW Agency in a Box",
-      "division": "Business Hub",
       "status": "live",
-      "family_model": true,
-      "editions": [
-        {
-          "name": "Done-for-You",
-          "delivery": "service",
-          "checkout": "quote"
-        },
-        {
-          "name": "Agency Edition",
-          "delivery": "licensed digital system",
-          "checkout": "https://shop.beacons.ai/helloworldstudiozw/ad54294f-316a-49d5-8720-d4549abf9c95"
-        },
-        {
-          "name": "Enterprise",
-          "delivery": "planned",
-          "status": "future"
-        }
-      ],
-      "core_module": "Client Content Engine",
-      "app_url": "https://hws-agency-box.netlify.app/"
+      "purchase_status": "verified_checkout",
+      "checkout_url": "https://shop.beacons.ai/helloworldstudiozw/ad54294f-316a-49d5-8720-d4549abf9c95",
+      "app_url": "https://hws-agency-box.netlify.app/",
+      "notes": "Agency Edition checkout verified from the provided Beacons URL. Done-for-You services are quoted separately."
     },
     {
-      "id": "HWS-002",
+      "code": "HWS-002",
       "name": "HW Press Book Engine",
-      "division": "Hello World Publishers",
       "status": "live",
-      "app_url": "https://hw-press-book-engine.vercel.app/"
+      "purchase_status": "checkout_not_confirmed",
+      "checkout_url": null,
+      "app_url": "https://hw-press-book-engine.vercel.app/",
+      "notes": "Live app link verified. No dedicated Beacons checkout URL supplied, so the website must not claim direct purchase availability."
     },
     {
-      "id": "HWS-003",
+      "code": "HWS-003",
       "name": "HW Release System Studio",
-      "division": "Hello World Music",
       "status": "live",
+      "purchase_status": "checkout_not_confirmed",
+      "checkout_url": null,
       "app_url": "https://hw-release-system-studio-6ahgoiy1v.vercel.app/",
-      "embedded_modules": [
-        "HitMaker ZW"
-      ]
+      "notes": "Live app link verified. HitMaker ZW is embedded. No dedicated Beacons checkout URL supplied."
     }
   ]
 }
