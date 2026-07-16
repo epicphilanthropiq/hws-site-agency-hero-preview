@@ -1,0 +1,32 @@
+{
+  "product_name": "HW Agency in a Box",
+  "internal_name": "Client Content Engine",
+  "division": "Business Hub",
+  "category": "Band B multi-feature tool / agency operating system",
+  "status": "Beta \u2014 technical hardening required",
+  "source_file": "hw-agency-box-deploy.zip",
+  "deployment_url": null,
+  "checkout_url": null,
+  "pricing_status": "TBD \u2014 confirm current Beacons price",
+  "delivery_model": "Licensed static web app; local browser storage",
+  "ai_modes": [
+    "Instant built-in",
+    "Deep AI via Anthropic"
+  ],
+  "platforms": [
+    "Instagram",
+    "TikTok",
+    "Facebook",
+    "LinkedIn",
+    "X / Twitter",
+    "YouTube",
+    "WhatsApp"
+  ],
+  "security_flags": [
+    "Browser-stored API key",
+    "Direct frontend Anthropic request",
+    "Client-side license validation",
+    "No cloud backup"
+  ],
+  "recommended_next_release": "Safe sellable core without browser API-key collection"
+}

@@ -48,6 +48,15 @@
           "value": "public, max-age=3600"
         }
       ]
+    },
+    {
+      "source": "/(.*).html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
     }
   ],
   "rewrites": [
@@ -170,6 +179,103 @@
     {
       "source": "/disclaimer",
       "destination": "/disclaimer.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/site-config.json",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/route-registry.json",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/qa-report.json",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/QA-REPORT.md",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/SHA256SUMS.txt",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/PREPRODUCTION-RELEASE-GUIDE.md",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/PRODUCTION-LAUNCH-CHECKLIST.md",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/VISUAL-ASSET-CHECKLIST.md",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/CLIENT-CASE-STUDY-PERMISSION-TEMPLATE.md",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/CONVERSION-INTAKE-FOUNDATION.md",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/LAUNCH-READINESS-FOUNDATION.md",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/PLATFORM-FOUNDATION.md",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/PROOF-DOCS-FOUNDATION.md",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/STAGE-2-FINAL-POLISH.md",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/STAGE-2-PRODUCT-PAGES.md",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/STAGE-2-RELEASE.md",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/README.md",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/scripts/:path*",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/DEPLOYMENT-HYGIENE.md",
+      "destination": "/404",
+      "permanent": false
     }
   ]
 }
