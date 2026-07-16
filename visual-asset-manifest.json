@@ -55,6 +55,55 @@
       "usage": [
         "music"
       ]
+    },
+    {
+      "drive_title": "Sales Machine",
+      "site_file": "assets/images/final/agency-sales-machine.png",
+      "usage": [
+        "Agency in a Box",
+        "Marketplace"
+      ]
+    },
+    {
+      "drive_title": "Templates 1",
+      "site_file": "assets/images/final/agency-template-system.png",
+      "usage": [
+        "Agency in a Box",
+        "documentation"
+      ]
+    },
+    {
+      "drive_title": "Legacy 1",
+      "site_file": "assets/images/final/book-engine-legacy-writing.png",
+      "usage": [
+        "Press Book Engine",
+        "Marketplace",
+        "documentation"
+      ]
+    },
+    {
+      "drive_title": "Hidden World Inside Us Amazon banner",
+      "site_file": "assets/images/final/book-publishing-example.png",
+      "usage": [
+        "Press Book Engine"
+      ]
+    },
+    {
+      "drive_title": "HitMaker ZW 3",
+      "site_file": "assets/images/final/release-system-hitmaker-module.png",
+      "usage": [
+        "Release System Studio",
+        "documentation"
+      ],
+      "note": "Embedded module only"
+    },
+    {
+      "drive_title": "Music production",
+      "site_file": "assets/images/final/release-system-music-production.png",
+      "usage": [
+        "Release System Studio",
+        "Marketplace"
+      ]
     }
   ]
 }

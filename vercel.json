@@ -281,6 +281,11 @@
       "source": "/visual-asset-manifest.json",
       "destination": "/404",
       "permanent": false
+    },
+    {
+      "source": "/FLAGSHIP-PRODUCT-VISUALS.md",
+      "destination": "/404",
+      "permanent": false
     }
   ]
 }
