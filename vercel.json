@@ -306,6 +306,16 @@
       "source": "/LAUNCH-DECISION-REPORT.md",
       "destination": "/404",
       "permanent": false
+    },
+    {
+      "source": "/performance-accessibility-audit.json",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/PERFORMANCE-ACCESSIBILITY-AUDIT.md",
+      "destination": "/404",
+      "permanent": false
     }
   ]
 }

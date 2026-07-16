@@ -1,0 +1,276 @@
+{
+  "pages": [
+    {
+      "page": "404.html",
+      "issues": []
+    },
+    {
+      "page": "about.html",
+      "issues": []
+    },
+    {
+      "page": "accessibility.html",
+      "issues": []
+    },
+    {
+      "page": "agency-in-a-box.html",
+      "issues": []
+    },
+    {
+      "page": "ai-academy.html",
+      "issues": []
+    },
+    {
+      "page": "business-hub.html",
+      "issues": []
+    },
+    {
+      "page": "case-study-apex-24-pharmacy.html",
+      "issues": []
+    },
+    {
+      "page": "case-study-wellness-nurse.html",
+      "issues": []
+    },
+    {
+      "page": "contact.html",
+      "issues": []
+    },
+    {
+      "page": "content-studio.html",
+      "issues": []
+    },
+    {
+      "page": "digital-products.html",
+      "issues": []
+    },
+    {
+      "page": "disclaimer.html",
+      "issues": []
+    },
+    {
+      "page": "docs-agency-in-a-box.html",
+      "issues": []
+    },
+    {
+      "page": "docs-press-book-engine.html",
+      "issues": []
+    },
+    {
+      "page": "docs-release-system-studio.html",
+      "issues": []
+    },
+    {
+      "page": "documentation.html",
+      "issues": []
+    },
+    {
+      "page": "impact.html",
+      "issues": []
+    },
+    {
+      "page": "index.html",
+      "issues": []
+    },
+    {
+      "page": "learning.html",
+      "issues": []
+    },
+    {
+      "page": "legacy-services.html",
+      "issues": []
+    },
+    {
+      "page": "marketplace.html",
+      "issues": []
+    },
+    {
+      "page": "media.html",
+      "issues": []
+    },
+    {
+      "page": "music.html",
+      "issues": []
+    },
+    {
+      "page": "portfolio.html",
+      "issues": []
+    },
+    {
+      "page": "press-book-engine.html",
+      "issues": []
+    },
+    {
+      "page": "privacy-policy.html",
+      "issues": []
+    },
+    {
+      "page": "publishers.html",
+      "issues": []
+    },
+    {
+      "page": "refund-policy.html",
+      "issues": []
+    },
+    {
+      "page": "release-system-studio.html",
+      "issues": []
+    },
+    {
+      "page": "services.html",
+      "issues": []
+    },
+    {
+      "page": "support.html",
+      "issues": []
+    },
+    {
+      "page": "terms.html",
+      "issues": []
+    },
+    {
+      "page": "the-impossible-is-human.html",
+      "issues": []
+    },
+    {
+      "page": "tools.html",
+      "issues": []
+    }
+  ],
+  "summary": {
+    "html_pages": 34,
+    "optimized_images": 13,
+    "original_image_bytes": 25002802,
+    "optimized_image_bytes": 1922602,
+    "total_saving_percent": 92.3,
+    "broken_local_references": 0,
+    "images_missing_alt": 0,
+    "unlabelled_form_fields": 0,
+    "heading_issues": 0,
+    "pages_missing_skip_link": 0
+  },
+  "image_optimization": [
+    {
+      "source": "agency-sales-machine.png",
+      "output": "agency-sales-machine.webp",
+      "width": 1254,
+      "height": 1254,
+      "original_bytes": 1864819,
+      "webp_bytes": 168574,
+      "saving_percent": 91.0
+    },
+    {
+      "source": "agency-template-system.png",
+      "output": "agency-template-system.webp",
+      "width": 1536,
+      "height": 1024,
+      "original_bytes": 1746447,
+      "webp_bytes": 158028,
+      "saving_percent": 91.0
+    },
+    {
+      "source": "book-engine-legacy-writing.png",
+      "output": "book-engine-legacy-writing.webp",
+      "width": 1672,
+      "height": 941,
+      "original_bytes": 2212162,
+      "webp_bytes": 183908,
+      "saving_percent": 91.7
+    },
+    {
+      "source": "book-publishing-example.png",
+      "output": "book-publishing-example.webp",
+      "width": 1672,
+      "height": 941,
+      "original_bytes": 1936344,
+      "webp_bytes": 177342,
+      "saving_percent": 90.8
+    },
+    {
+      "source": "client-apex-24-pharmacy.png",
+      "output": "client-apex-24-pharmacy.webp",
+      "width": 1024,
+      "height": 1536,
+      "original_bytes": 2045372,
+      "webp_bytes": 179002,
+      "saving_percent": 91.2
+    },
+    {
+      "source": "client-the-wellness-nurse.png",
+      "output": "client-the-wellness-nurse.webp",
+      "width": 941,
+      "height": 1672,
+      "original_bytes": 1818354,
+      "webp_bytes": 49522,
+      "saving_percent": 97.3
+    },
+    {
+      "source": "hws-ai-academy.png",
+      "output": "hws-ai-academy.webp",
+      "width": 1672,
+      "height": 941,
+      "original_bytes": 2174109,
+      "webp_bytes": 223498,
+      "saving_percent": 89.7
+    },
+    {
+      "source": "hws-creator-dashboard.png",
+      "output": "hws-creator-dashboard.webp",
+      "width": 1672,
+      "height": 941,
+      "original_bytes": 1710557,
+      "webp_bytes": 106990,
+      "saving_percent": 93.7
+    },
+    {
+      "source": "hws-inclusive-studio-team.png",
+      "output": "hws-inclusive-studio-team.webp",
+      "width": 1672,
+      "height": 941,
+      "original_bytes": 2072174,
+      "webp_bytes": 144184,
+      "saving_percent": 93.0
+    },
+    {
+      "source": "hws-music-ndakakuda.png",
+      "output": "hws-music-ndakakuda.webp",
+      "width": 1915,
+      "height": 821,
+      "original_bytes": 1384024,
+      "webp_bytes": 44600,
+      "saving_percent": 96.8
+    },
+    {
+      "source": "hws-podcast-creator-studio.png",
+      "output": "hws-podcast-creator-studio.webp",
+      "width": 1672,
+      "height": 941,
+      "original_bytes": 1891510,
+      "webp_bytes": 122894,
+      "saving_percent": 93.5
+    },
+    {
+      "source": "release-system-hitmaker-module.png",
+      "output": "release-system-hitmaker-module.webp",
+      "width": 1254,
+      "height": 1254,
+      "original_bytes": 1793370,
+      "webp_bytes": 141130,
+      "saving_percent": 92.1
+    },
+    {
+      "source": "release-system-music-production.png",
+      "output": "release-system-music-production.webp",
+      "width": 1536,
+      "height": 1024,
+      "original_bytes": 2353560,
+      "webp_bytes": 222930,
+      "saving_percent": 90.5
+    }
+  ],
+  "broken": [],
+  "missing_alt": [],
+  "form_issues": [],
+  "heading_issues": [],
+  "pages_missing_skip_link": []
+}
