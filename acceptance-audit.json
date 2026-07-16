@@ -1,0 +1,16 @@
+{
+  "release": "v8.1",
+  "pages_checked": 34,
+  "broken_local_references": [],
+  "void_elements_with_children": [],
+  "closing_br_tags": [],
+  "homepage_metadata": {
+    "og_image": "assets/images/final/hws-inclusive-studio-team.webp",
+    "twitter_image": "assets/images/final/hws-inclusive-studio-team.webp",
+    "image_preloads": [
+      "assets/images/final/hws-inclusive-studio-team.webp"
+    ]
+  },
+  "fixed_void_children": [],
+  "fixed_br_closures": 0
+}

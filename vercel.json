@@ -316,6 +316,16 @@
       "source": "/PERFORMANCE-ACCESSIBILITY-AUDIT.md",
       "destination": "/404",
       "permanent": false
+    },
+    {
+      "source": "/acceptance-audit.json",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/ACCEPTANCE-HOTFIX.md",
+      "destination": "/404",
+      "permanent": false
     }
   ]
 }
