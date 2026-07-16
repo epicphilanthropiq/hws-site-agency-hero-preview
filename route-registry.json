@@ -1,0 +1,222 @@
+[
+  {
+    "route": "/about",
+    "file": "about.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/academy",
+    "file": "ai-academy.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/products",
+    "file": "digital-products.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/content",
+    "file": "content-studio.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/legacy",
+    "file": "legacy-services.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/business",
+    "file": "business-hub.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/publishers",
+    "file": "publishers.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/music",
+    "file": "music.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/contact",
+    "file": "contact.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/tools",
+    "file": "tools.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/agency-in-a-box",
+    "file": "agency-in-a-box.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/marketplace",
+    "file": "marketplace.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/press-book-engine",
+    "file": "press-book-engine.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/release-system-studio",
+    "file": "release-system-studio.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/services",
+    "file": "services.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/learning",
+    "file": "learning.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/media",
+    "file": "media.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/portfolio",
+    "file": "portfolio.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/impact",
+    "file": "impact.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/documentation",
+    "file": "documentation.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/portfolio/the-wellness-nurse",
+    "file": "case-study-wellness-nurse.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/portfolio/apex-24-pharmacy",
+    "file": "case-study-apex-24-pharmacy.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/docs/agency-in-a-box",
+    "file": "docs-agency-in-a-box.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/docs/press-book-engine",
+    "file": "docs-press-book-engine.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/docs/release-system-studio",
+    "file": "docs-release-system-studio.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/support",
+    "file": "support.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/terms",
+    "file": "terms.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/refund-policy",
+    "file": "refund-policy.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/accessibility",
+    "file": "accessibility.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/disclaimer",
+    "file": "disclaimer.html",
+    "type": "rewrite"
+  },
+  {
+    "route": "/404",
+    "file": "404.html",
+    "type": "direct"
+  },
+  {
+    "route": "/ai-academy",
+    "file": "ai-academy.html",
+    "type": "direct"
+  },
+  {
+    "route": "/business-hub",
+    "file": "business-hub.html",
+    "type": "direct"
+  },
+  {
+    "route": "/case-study-apex-24-pharmacy",
+    "file": "case-study-apex-24-pharmacy.html",
+    "type": "direct"
+  },
+  {
+    "route": "/case-study-wellness-nurse",
+    "file": "case-study-wellness-nurse.html",
+    "type": "direct"
+  },
+  {
+    "route": "/content-studio",
+    "file": "content-studio.html",
+    "type": "direct"
+  },
+  {
+    "route": "/digital-products",
+    "file": "digital-products.html",
+    "type": "direct"
+  },
+  {
+    "route": "/docs-agency-in-a-box",
+    "file": "docs-agency-in-a-box.html",
+    "type": "direct"
+  },
+  {
+    "route": "/docs-press-book-engine",
+    "file": "docs-press-book-engine.html",
+    "type": "direct"
+  },
+  {
+    "route": "/docs-release-system-studio",
+    "file": "docs-release-system-studio.html",
+    "type": "direct"
+  },
+  {
+    "route": "/",
+    "file": "index.html",
+    "type": "direct"
+  },
+  {
+    "route": "/legacy-services",
+    "file": "legacy-services.html",
+    "type": "direct"
+  },
+  {
+    "route": "/privacy-policy",
+    "file": "privacy-policy.html",
+    "type": "direct"
+  },
+  {
+    "route": "/the-impossible-is-human",
+    "file": "the-impossible-is-human.html",
+    "type": "direct"
+  }
+]

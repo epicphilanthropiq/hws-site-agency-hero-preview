@@ -1,0 +1,329 @@
+{
+  "release": "HWS Preproduction Release Candidate v5",
+  "preview_domain": "https://hws-site-agency-hero-preview.vercel.app",
+  "indexing_enabled": false,
+  "pages": [
+    {
+      "file": "404.html",
+      "title": "Page Not Found | Hello World Studio",
+      "description_length": 84,
+      "h1_count": 1,
+      "robots": "noindex,nofollow",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "about.html",
+      "title": "About Hello World Studio | Every Life. Every Ability. Every Story Matters.",
+      "description_length": 154,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "accessibility.html",
+      "title": "Accessibility Statement | Hello World Studio",
+      "description_length": 111,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "agency-in-a-box.html",
+      "title": "HW Agency in a Box | Done-for-You and Agency Editions",
+      "description_length": 130,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "ai-academy.html",
+      "title": "Hello World AI Academy | Practical AI Learning for Africa and the Diaspora",
+      "description_length": 180,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "business-hub.html",
+      "title": "Hello World Business Hub | AI Strategy, Websites and Digital Growth",
+      "description_length": 180,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "case-study-apex-24-pharmacy.html",
+      "title": "Apex 24 Pharmacy Case Study | Hello World Studio Portfolio",
+      "description_length": 108,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "case-study-wellness-nurse.html",
+      "title": "The Wellness Nurse Case Study | Hello World Studio Portfolio",
+      "description_length": 113,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact Hello World Studio",
+      "description_length": 99,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "content-studio.html",
+      "title": "Hello World Content Studio | AI Storytelling, Social Media and Creative Campaigns",
+      "description_length": 182,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "digital-products.html",
+      "title": "Hello World Studio Digital Products | AI Tools, Templates and Creator Systems",
+      "description_length": 182,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "disclaimer.html",
+      "title": "Disclaimer | Hello World Studio",
+      "description_length": 118,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "docs-agency-in-a-box.html",
+      "title": "Agency in a Box Documentation",
+      "description_length": 51,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "docs-press-book-engine.html",
+      "title": "Press Book Engine Documentation",
+      "description_length": 78,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "docs-release-system-studio.html",
+      "title": "Release System Studio Documentation",
+      "description_length": 59,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "documentation.html",
+      "title": "Hello World Studio Documentation Hub",
+      "description_length": 86,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "impact.html",
+      "title": "Hello World Studio Impact",
+      "description_length": 86,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "index.html",
+      "title": "Hello World Studio | AI Creative Studio for Africa and the Diaspora",
+      "description_length": 175,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "learning.html",
+      "title": "Hello World Studio Learning",
+      "description_length": 77,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "legacy-services.html",
+      "title": "Hello World Legacy Services | Preserve Stories, Wisdom and Family History",
+      "description_length": 139,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "marketplace.html",
+      "title": "Hello World Studio Marketplace",
+      "description_length": 120,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "media.html",
+      "title": "Hello World Media Network",
+      "description_length": 94,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "music.html",
+      "title": "Hello World Music | AI-Assisted Music, Visual Storytelling and Artist Development",
+      "description_length": 167,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "portfolio.html",
+      "title": "Hello World Studio Portfolio",
+      "description_length": 94,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "press-book-engine.html",
+      "title": "HW Press Book Engine | Hello World Publishers",
+      "description_length": 155,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "privacy-policy.html",
+      "title": "Privacy Policy | Hello World Studio",
+      "description_length": 103,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "publishers.html",
+      "title": "Hello World Publishers | Books, Memoirs and Stories That Last",
+      "description_length": 180,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "refund-policy.html",
+      "title": "Digital Product and Refund Policy | Hello World Studio",
+      "description_length": 98,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "release-system-studio.html",
+      "title": "HW Release System Studio | Hello World Music",
+      "description_length": 121,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "services.html",
+      "title": "Hello World Studio Services",
+      "description_length": 111,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "support.html",
+      "title": "Hello World Studio Product Support",
+      "description_length": 58,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "terms.html",
+      "title": "Terms of Use | Hello World Studio",
+      "description_length": 93,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "the-impossible-is-human.html",
+      "title": "About Hello World Studio | Every Life. Every Ability. Every Story Matters.",
+      "description_length": 154,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    },
+    {
+      "file": "tools.html",
+      "title": "Hello World Studio Tools Directory",
+      "description_length": 116,
+      "h1_count": 1,
+      "robots": "noindex,nofollow,noarchive",
+      "broken_local_links": [],
+      "warnings": []
+    }
+  ],
+  "summary": {
+    "html_pages": 34,
+    "registered_routes": 44,
+    "broken_local_links": 0,
+    "missing_local_assets": 0,
+    "duplicate_title_groups": 1,
+    "pages_with_warnings": 0
+  },
+  "broken_links": [],
+  "missing_assets": [],
+  "duplicate_titles": {
+    "about hello world studio | every life. every ability. every story matters.": [
+      "about.html",
+      "the-impossible-is-human.html"
+    ]
+  }
+}

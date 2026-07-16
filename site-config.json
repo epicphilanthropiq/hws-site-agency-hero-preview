@@ -1,0 +1,11 @@
+{
+  "release": "v5-preproduction",
+  "environment": "preview",
+  "preview_domain": "https://hws-site-agency-hero-preview.vercel.app",
+  "production_domain": null,
+  "indexing_enabled": false,
+  "analytics_enabled": false,
+  "voice_accessibility_enabled": false,
+  "checkout_provider": "Beacons",
+  "contact_email": "helloworldstudiozw@gmail.com"
+}
