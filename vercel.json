@@ -106,6 +106,26 @@
     {
       "source": "/release-system-studio",
       "destination": "/release-system-studio.html"
+    },
+    {
+      "source": "/services",
+      "destination": "/services.html"
+    },
+    {
+      "source": "/learning",
+      "destination": "/learning.html"
+    },
+    {
+      "source": "/media",
+      "destination": "/media.html"
+    },
+    {
+      "source": "/portfolio",
+      "destination": "/portfolio.html"
+    },
+    {
+      "source": "/impact",
+      "destination": "/impact.html"
     }
   ]
 }
