@@ -276,6 +276,11 @@
       "source": "/DEPLOYMENT-HYGIENE.md",
       "destination": "/404",
       "permanent": false
+    },
+    {
+      "source": "/visual-asset-manifest.json",
+      "destination": "/404",
+      "permanent": false
     }
   ]
 }

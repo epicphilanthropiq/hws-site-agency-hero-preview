@@ -1,0 +1,60 @@
+{
+  "source_folder": "https://drive.google.com/drive/folders/1MZ01LcHk1iJ8qSFFN8nxxTUzpNN0BkxH",
+  "assets": [
+    {
+      "drive_title": "Website visuals 1",
+      "site_file": "assets/images/final/hws-inclusive-studio-team.png",
+      "usage": [
+        "homepage hero"
+      ]
+    },
+    {
+      "drive_title": "Website visuals 2",
+      "site_file": "assets/images/final/hws-podcast-creator-studio.png",
+      "usage": [
+        "media network"
+      ]
+    },
+    {
+      "drive_title": "Website visuals 3",
+      "site_file": "assets/images/final/hws-creator-dashboard.png",
+      "usage": [
+        "homepage",
+        "marketplace"
+      ]
+    },
+    {
+      "drive_title": "Ai Academy 7",
+      "site_file": "assets/images/final/hws-ai-academy.png",
+      "usage": [
+        "learning",
+        "AI Academy"
+      ]
+    },
+    {
+      "drive_title": "The Wellness Nurse",
+      "site_file": "assets/images/final/client-the-wellness-nurse.png",
+      "usage": [
+        "portfolio",
+        "case study"
+      ],
+      "approval_required": true
+    },
+    {
+      "drive_title": "Apex pharmacy 5",
+      "site_file": "assets/images/final/client-apex-24-pharmacy.png",
+      "usage": [
+        "portfolio",
+        "case study"
+      ],
+      "approval_required": true
+    },
+    {
+      "drive_title": "Ndakakuda visuals",
+      "site_file": "assets/images/final/hws-music-ndakakuda.png",
+      "usage": [
+        "music"
+      ]
+    }
+  ]
+}
