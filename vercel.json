@@ -154,6 +154,22 @@
     {
       "source": "/support",
       "destination": "/support.html"
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms.html"
+    },
+    {
+      "source": "/refund-policy",
+      "destination": "/refund-policy.html"
+    },
+    {
+      "source": "/accessibility",
+      "destination": "/accessibility.html"
+    },
+    {
+      "source": "/disclaimer",
+      "destination": "/disclaimer.html"
     }
   ]
 }

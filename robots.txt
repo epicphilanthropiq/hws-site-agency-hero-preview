@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /
+# Preview environment. Replace with production crawling rules only after final approval.
