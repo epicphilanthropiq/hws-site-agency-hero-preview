@@ -126,6 +126,34 @@
     {
       "source": "/impact",
       "destination": "/impact.html"
+    },
+    {
+      "source": "/documentation",
+      "destination": "/documentation.html"
+    },
+    {
+      "source": "/portfolio/the-wellness-nurse",
+      "destination": "/case-study-wellness-nurse.html"
+    },
+    {
+      "source": "/portfolio/apex-24-pharmacy",
+      "destination": "/case-study-apex-24-pharmacy.html"
+    },
+    {
+      "source": "/docs/agency-in-a-box",
+      "destination": "/docs-agency-in-a-box.html"
+    },
+    {
+      "source": "/docs/press-book-engine",
+      "destination": "/docs-press-book-engine.html"
+    },
+    {
+      "source": "/docs/release-system-studio",
+      "destination": "/docs-release-system-studio.html"
+    },
+    {
+      "source": "/support",
+      "destination": "/support.html"
     }
   ]
 }
