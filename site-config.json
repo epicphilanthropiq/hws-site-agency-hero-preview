@@ -1,8 +1,8 @@
 {
-  "release": "v5-preproduction",
-  "environment": "preview",
+  "release": "v9-production-domain-handoff",
+  "environment": "production-prelaunch",
   "preview_domain": "https://hws-site-agency-hero-preview.vercel.app",
-  "production_domain": null,
+  "production_domain": "https://helloworldstudio.co.zw",
   "indexing_enabled": false,
   "analytics_enabled": false,
   "voice_accessibility_enabled": false,

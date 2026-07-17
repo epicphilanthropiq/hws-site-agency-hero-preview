@@ -326,6 +326,27 @@
       "source": "/ACCEPTANCE-HOTFIX.md",
       "destination": "/404",
       "permanent": false
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.helloworldstudio.co.zw"
+        }
+      ],
+      "destination": "https://helloworldstudio.co.zw/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/PRODUCTION-DOMAIN-HANDOFF.md",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/production-domain-audit.json",
+      "destination": "/404",
+      "permanent": false
     }
   ]
 }

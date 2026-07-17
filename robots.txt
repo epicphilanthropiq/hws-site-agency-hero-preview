@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /
-# Preview environment. Replace with production crawling rules only after final approval.
+# Production domain prepared. Enable crawling only after approval.
+# Future sitemap: https://helloworldstudio.co.zw/sitemap.xml
