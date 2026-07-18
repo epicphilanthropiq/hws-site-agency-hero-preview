@@ -1,9 +1,9 @@
 {
   "release": "v9-production-domain-handoff",
-  "environment": "production-prelaunch",
+  "environment": "production",
   "preview_domain": "https://hws-site-agency-hero-preview.vercel.app",
   "production_domain": "https://helloworldstudio.co.zw",
-  "indexing_enabled": false,
+  "indexing_enabled": true,
   "analytics_enabled": false,
   "voice_accessibility_enabled": false,
   "checkout_provider": "Beacons",

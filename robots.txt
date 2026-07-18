@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /
-# Production domain prepared. Enable crawling only after approval.
-# Future sitemap: https://helloworldstudio.co.zw/sitemap.xml
+Allow: /
+Sitemap: https://helloworldstudio.co.zw/sitemap.xml
