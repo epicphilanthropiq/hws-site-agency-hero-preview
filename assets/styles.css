@@ -761,3 +761,39 @@ img{max-width:100%;height:auto}
 .about-campus-cta{position:relative;isolation:isolate;background:url("images/about/about-campus.webp") center/cover no-repeat;overflow:hidden}.about-campus-cta:before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(5,8,17,.5),rgba(5,8,17,.92));z-index:-1}.about-campus-cta .shell{max-width:900px}
 @media(max-width:900px){.about-hero-visual{min-height:760px;align-items:flex-end}.about-hero-image{background-position:70% center}.about-hero-overlay{background:linear-gradient(0deg,rgba(5,8,17,.98) 0%,rgba(5,8,17,.78) 55%,rgba(5,8,17,.18) 100%)}.about-hero-content{padding-top:310px;padding-bottom:65px}.about-story-split,.founder-grid,.story-action-grid{grid-template-columns:1fr}.founder-portrait{max-width:520px}.publication-grid{grid-template-columns:1fr}.publication-card img{height:auto;max-height:620px}.story-action-copy{order:2}}
 @media(max-width:600px){.about-hero-visual{min-height:690px}.about-hero-image{background-position:78% center}.about-hero-content h1{font-size:44px}.about-proof{justify-content:flex-start}.about-story-image img,.story-action-image img,.mission-visual img,.ecosystem-showcase img{border-radius:18px}.publication-card img{max-height:none}.founder-copy blockquote{font-size:23px}}
+
+/* About page image scale and performance refinement */
+.about-story-image,
+.story-action-image {
+  width: min(100%, 720px);
+}
+.about-story-image { justify-self: start; }
+.story-action-image { justify-self: end; }
+.mission-visual,
+.ecosystem-showcase {
+  width: min(100%, 980px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.founder-portrait {
+  width: min(100%, 470px);
+  justify-self: center;
+}
+.publication-card img {
+  max-height: 460px;
+  object-fit: cover;
+}
+@media (max-width: 900px) {
+  .about-story-image,
+  .story-action-image,
+  .mission-visual,
+  .ecosystem-showcase,
+  .founder-portrait {
+    width: min(100%, 680px);
+    justify-self: center;
+  }
+  .publication-card img { max-height: 520px; }
+}
+@media (max-width: 600px) {
+  .publication-card img { max-height: 420px; }
+}
