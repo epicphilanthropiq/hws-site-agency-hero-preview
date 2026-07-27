@@ -46,24 +46,59 @@
 @media(max-width:620px){.container{width:min(100% - 28px,1180px)}.nav-wrap{min-height:68px}.brand span{font-size:.92rem}.hero{min-height:760px}.hero-media{object-position:center top}.hero-content{padding:360px 0 66px}.hero h1{font-size:3.5rem}.section{padding:72px 0}.card-grid{grid-template-columns:1fr}.visual-card{min-height:330px}.cta-box{padding:55px 22px}.actions{flex-direction:column}.btn{width:100%}.footer-wrap a{margin:0 14px 0 0}}
 </style>
 <link rel="stylesheet" href="assets/hws-2027.css?v=1"/>
+<link rel="stylesheet" href="assets/homepage-2027.css?v=2"/>
 </head>
-<body>
+<body class="home-2027">
 <header class="site-header">
   <div class="container nav-wrap">
     <a class="brand" href="index.html" aria-label="Hello World Studio home"><img src="assets/images/hello-world-studio-logo.jpg" alt="Hello World Studio logo"/><span>Hello World Studio</span></a>
-    <nav class="site-nav" aria-label="Primary navigation">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation"><span></span></button>
+    <nav class="site-nav" id="primary-navigation" aria-label="Primary navigation">
       <a href="services.html">Agency</a><a href="ai-academy.html">AI Academy</a><a href="publishers.html">Publishers</a><a href="media.html">Podcast</a><a href="music.html">Music</a><a href="marketplace.html">Marketplace</a><a href="about.html">About</a><a class="nav-cta" href="contact.html">Get Started</a>
     </nav>
   </div>
 </header>
 <main>
-<section class="hero" aria-labelledby="hero-title">
-  <picture><source media="(max-width:620px)" srcset="assets/images/home/hero-mobile.webp"/><img class="hero-media" src="assets/images/home/hero-main.webp" alt="Inclusive team of African creators collaborating in the Hello World Studio workspace" width="1536" height="864" fetchpriority="high"/></picture>
-  <div class="container hero-content">
-    <span class="eyebrow">AI powered · Human inspired · Future ready</span>
-    <h1 id="hero-title">Learn. Create. Publish. <span class="gradient-text">Grow. Preserve.</span></h1>
-    <p>Hello World Studio helps creators, authors, entrepreneurs and organisations use AI to learn, create, publish, grow and preserve work that makes a lasting impact.</p>
-    <div class="actions"><a class="btn btn-primary" href="contact.html">Start Your Journey</a><a class="btn btn-secondary" href="#ecosystem">Explore the Studio</a></div>
+<section class="home-hero" aria-labelledby="hero-title">
+  <div class="home-hero-media" aria-hidden="true"><picture><source media="(max-width:620px)" srcset="assets/images/home/hero-mobile.webp"/><img src="assets/images/home/hero-main.webp" alt="" width="1536" height="864" fetchpriority="high"/></picture></div>
+  <div class="hero-orbit one" aria-hidden="true"></div><div class="hero-orbit two" aria-hidden="true"></div>
+  <div class="container home-hero-grid">
+    <div class="home-hero-copy">
+      <span class="eyebrow">AI powered · Human inspired · Future ready</span>
+      <h1 id="hero-title">Learn. Create. Publish. <span class="gradient-text">Grow. Preserve.</span></h1>
+      <p>Hello World Studio helps African and diaspora creators, authors, entrepreneurs and organisations turn meaningful ideas into brands, books, media, music, digital products and lasting legacies.</p>
+      <div class="actions"><a class="btn btn-primary" href="contact.html">Start Your Journey <span aria-hidden="true">↗</span></a><a class="btn btn-secondary" href="#ecosystem">Explore the Studio</a></div>
+      <div class="hero-proof"><span>Human-centred AI</span><span>Built in Africa</span><span>Created for global impact</span></div>
+    </div>
+    <div class="hero-showcase" aria-label="Hello World Studio creative ecosystem">
+      <div class="hero-visual-card main"><img src="assets/images/home/welcome-studio.webp" alt="Premium Hello World Studio creative workspace" width="1400" height="933"/></div>
+      <div class="floating-panel top"><span class="panel-icon" aria-hidden="true">✦</span><strong>AI Academy</strong><small>Learn practical AI</small></div>
+      <div class="floating-panel side"><span class="panel-icon" aria-hidden="true">◈</span><strong>Publish & produce</strong><small>Books · Podcast · Music</small></div>
+      <div class="floating-panel bottom"><span class="panel-icon" aria-hidden="true">∞</span><strong>Build your legacy</strong><small>Stories that outlive trends</small></div>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#trust" aria-label="Scroll to studio highlights"><span>Discover</span><i></i></a>
+</section>
+
+<section class="trust-strip" id="trust" aria-label="Hello World Studio highlights">
+  <div class="container trust-grid">
+    <div class="trust-item"><strong class="trust-number" data-count="6" data-suffix="+">0</strong><span class="trust-label">Connected studio divisions</span></div>
+    <div class="trust-item"><strong class="trust-number" data-count="5" data-suffix="×">0</strong><span class="trust-label">Ways to turn ideas into impact</span></div>
+    <div class="trust-item"><strong class="trust-number" data-count="100" data-suffix="%">0</strong><span class="trust-label">Human-centred creative direction</span></div>
+    <div class="trust-item"><strong class="trust-number" data-count="1" data-suffix="">0</strong><span class="trust-label">Ecosystem from idea to legacy</span></div>
+  </div>
+</section>
+<section class="section" aria-labelledby="services-title">
+  <div class="container">
+    <div class="home-section-head"><div><span class="section-kicker">What we build</span><h2 id="services-title">Creative systems for your next chapter.</h2></div><p class="section-lead">Choose a focused service or connect multiple divisions into one practical journey from learning and strategy to production, launch and long-term impact.</p></div>
+    <div class="service-showcase">
+      <a class="service-panel" href="services.html" style="--panel-glow:rgba(59,130,246,.28)"><span class="service-index">01</span><h3>Brand & Digital Studio</h3><p>Strategy, websites, campaigns and digital experiences built to convert attention into trust.</p><span class="service-link">Explore Agency <span>→</span></span></a>
+      <a class="service-panel" href="ai-academy.html" style="--panel-glow:rgba(34,211,238,.24)"><span class="service-index">02</span><h3>AI Academy</h3><p>Accessible training and practical AI systems for creators, teams and organisations.</p><span class="service-link">Start Learning <span>→</span></span></a>
+      <a class="service-panel" href="publishers.html" style="--panel-glow:rgba(139,92,246,.26)"><span class="service-index">03</span><h3>Publishing & Legacy</h3><p>Transform stories, expertise and lived experience into books and enduring intellectual assets.</p><span class="service-link">Publish Your Story <span>→</span></span></a>
+      <a class="service-panel" href="media.html" style="--panel-glow:rgba(16,185,129,.22)"><span class="service-index">04</span><h3>Podcast & Media</h3><p>Create trusted conversations, educational content and media that carries your voice further.</p><span class="service-link">Enter the Studio <span>→</span></span></a>
+      <a class="service-panel" href="music.html" style="--panel-glow:rgba(236,72,153,.22)"><span class="service-index">05</span><h3>Music Production</h3><p>Develop meaningful songs, visual concepts and release-ready creative direction.</p><span class="service-link">Create Music <span>→</span></span></a>
+      <a class="service-panel" href="marketplace.html" style="--panel-glow:rgba(245,158,11,.22)"><span class="service-index">06</span><h3>Marketplace & Tools</h3><p>Ready-to-use systems, guides and digital products designed to move ideas into action.</p><span class="service-link">Browse Marketplace <span>→</span></span></a>
+    </div>
   </div>
 </section>
 <section class="section">
@@ -79,6 +114,9 @@
       <a class="visual-card" href="publishers.html"><img src="assets/images/home/ecosystem-publishers.webp" alt="Author developing a manuscript with the HW Press Book Engine" loading="lazy"/><div class="visual-card-content"><h3>Publishers</h3><p>Turn ideas and manuscripts into professionally published books.</p></div></a>
       <a class="visual-card" href="media.html"><img src="assets/images/home/ecosystem-podcast.webp" alt="Hello World Podcast interview in a premium studio" loading="lazy"/><div class="visual-card-content"><h3>Podcast</h3><p>Real stories, real people and conversations that matter.</p></div></a>
       <a class="visual-card" href="music.html"><img src="assets/images/home/ecosystem-music.webp" alt="Hello World Studio music production session" loading="lazy"/><div class="visual-card-content"><h3>Music</h3><p>Create, produce and release music with purpose.</p></div></a>
+    </div>
+    <div class="ecosystem-flow" aria-label="Studio journey">
+      <a class="flow-node" href="ai-academy.html">Learn</a><span class="flow-arrow">→</span><a class="flow-node" href="services.html">Create</a><span class="flow-arrow">→</span><a class="flow-node" href="publishers.html">Publish</a><span class="flow-arrow">→</span><a class="flow-node" href="marketplace.html">Grow</a><span class="flow-arrow">→</span><a class="flow-node" href="legacy-services.html">Preserve</a>
     </div>
   </div>
 </section>
@@ -111,5 +149,6 @@
 <footer class="site-footer"><div class="container footer-wrap"><span>© 2026 Hello World Studio. AI Powered. Human Inspired. Future Ready.</span><span><a href="privacy-policy.html">Privacy</a><a href="terms.html">Terms</a><a href="accessibility.html">Accessibility</a></span></div></footer>
 <script src="assets/site.js" defer></script>
 <script src="assets/hws-2027.js?v=1" defer></script>
+<script src="assets/homepage-2027.js?v=2" defer></script>
 </body>
 </html>
