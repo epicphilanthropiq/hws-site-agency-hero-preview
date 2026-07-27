@@ -14,7 +14,8 @@
 <link href="site.webmanifest" rel="manifest"/>
 <link href="assets/styles.css" rel="stylesheet"/>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Hello World Legacy Services","description":"Story capture, family history, memoir development, founder legacy and digital archive services.","areaServed":["Africa","United Kingdom","Zimbabwe","Global"]}</script>
-<link href="https://helloworldstudio.co.zw/legacy" rel="canonical"/><meta content="https://helloworldstudio.co.zw/legacy" property="og:url"/></head>
+<link href="https://helloworldstudio.co.zw/legacy" rel="canonical"/><meta content="https://helloworldstudio.co.zw/legacy" property="og:url"/><link rel="stylesheet" href="assets/hws-2027.css?v=1"/>
+</head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <div class="announcement"><span>Every life contains knowledge, love and memory worth preserving.</span><a href="#journeys">Explore legacy journeys</a></div>
@@ -77,4 +78,5 @@
 <script>
 document.addEventListener('DOMContentLoaded',()=>{const data={life:['Personal Legacy Story','Begin with guided life interviews, a simple timeline and a structured written narrative that can later become a book, audio archive or family collection.',['Life interview plan','Memory timeline','Written narrative','Future format options']],family:['Family History Collection','Gather stories from several generations, organise photographs and documents, and create a private family archive or printed history.',['Family interview map','Shared memory prompts','Photo and document index','Private archive plan']],founder:['Founder Knowledge Legacy','Capture the origin, principles, key decisions and hard-won knowledge behind a business, charity, school or institution.',['Founder interview series','Decision timeline','Values and doctrine','Knowledge transfer archive']],voice:['Voice & Memory Archive','Preserve the sound, expressions and personal stories of a loved one through organised audio, video and written context.',['Voice recording plan','Topic-led memories','Video message prompts','Family access structure']]};document.querySelectorAll('.legacy-option').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.legacy-option').forEach(x=>x.classList.remove('active'));btn.classList.add('active');const d=data[btn.dataset.legacy];document.getElementById('legacyResult').innerHTML=`<small>Recommended legacy pathway</small><h3>${d[0]}</h3><p>${d[1]}</p><div class="legacy-includes">${d[2].map(x=>`<span>${x}</span>`).join('')}</div><a class="button" href="contact.html">Discuss This Legacy Project</a>`}))});
 </script>
+<script src="assets/hws-2027.js?v=1" defer></script>
 </body></html>
