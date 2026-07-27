@@ -761,39 +761,3 @@ img{max-width:100%;height:auto}
 .about-campus-cta{position:relative;isolation:isolate;background:url("images/about/about-campus.webp") center/cover no-repeat;overflow:hidden}.about-campus-cta:before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(5,8,17,.5),rgba(5,8,17,.92));z-index:-1}.about-campus-cta .shell{max-width:900px}
 @media(max-width:900px){.about-hero-visual{min-height:760px;align-items:flex-end}.about-hero-image{background-position:70% center}.about-hero-overlay{background:linear-gradient(0deg,rgba(5,8,17,.98) 0%,rgba(5,8,17,.78) 55%,rgba(5,8,17,.18) 100%)}.about-hero-content{padding-top:310px;padding-bottom:65px}.about-story-split,.founder-grid,.story-action-grid{grid-template-columns:1fr}.founder-portrait{max-width:520px}.publication-grid{grid-template-columns:1fr}.publication-card img{height:auto;max-height:620px}.story-action-copy{order:2}}
 @media(max-width:600px){.about-hero-visual{min-height:690px}.about-hero-image{background-position:78% center}.about-hero-content h1{font-size:44px}.about-proof{justify-content:flex-start}.about-story-image img,.story-action-image img,.mission-visual img,.ecosystem-showcase img{border-radius:18px}.publication-card img{max-height:none}.founder-copy blockquote{font-size:23px}}
-
-
-/* Lumina OS v1 Foundation */
-:root{
---bg:#0B0F14;--bg2:#111827;--surface:rgba(255,255,255,.08);
---border:rgba(255,255,255,.12);--text:#F8FAFC;
---blue:#3B82F6;--cyan:#06B6D4;--violet:#8B5CF6;
---radius:20px;--shadow:0 20px 60px rgba(0,0,0,.35);
-}
-body{
-background:
-radial-gradient(circle at 20% 0%,rgba(59,130,246,.10),transparent 35%),
-radial-gradient(circle at 80% 10%,rgba(6,182,212,.08),transparent 30%),
-linear-gradient(180deg,var(--bg),var(--bg2));
-color:var(--text);
-}
-.card,.service-card,.glass,.pricing-card,.testimonial-card{
-background:var(--surface);
-backdrop-filter:blur(16px);
-border:1px solid var(--border);
-border-radius:var(--radius);
-box-shadow:var(--shadow);
-transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;
-}
-.card:hover,.service-card:hover,.glass:hover,.pricing-card:hover,.testimonial-card:hover{
-transform:translateY(-4px);
-border-color:rgba(59,130,246,.35);
-}
-button,.btn,.button{
-transition:all .2s ease;
-}
-button:hover,.btn:hover,.button:hover{
-transform:translateY(-2px);
-box-shadow:0 0 30px rgba(59,130,246,.25);
-}
-section{scroll-margin-top:96px;}
