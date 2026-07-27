@@ -1,0 +1,41 @@
+/* Hello World Studio — Phase 3 Premium Experience Rollout */
+:root{
+  --p3-cyan:#42e8ff;--p3-blue:#5a7dff;--p3-violet:#9b6cff;
+  --p3-ink:#07111f;--p3-panel:rgba(12,24,43,.72);--p3-line:rgba(157,220,255,.18);
+  --p3-shadow:0 24px 70px rgba(0,7,20,.35);--p3-radius:28px;
+}
+html{scroll-behavior:smooth}.phase3-page{overflow-x:hidden}
+.phase3-page main{isolation:isolate}.phase3-page main>section{position:relative}
+.phase3-page main>section:nth-of-type(even):not(.final-cta):not(.newsletter)::before{
+  content:"";position:absolute;inset:8% -15%;z-index:-1;pointer-events:none;
+  background:radial-gradient(circle at 20% 40%,rgba(66,232,255,.065),transparent 32%),radial-gradient(circle at 82% 55%,rgba(155,108,255,.055),transparent 34%);
+}
+.phase3-page .section-heading,.phase3-page .section-intro{max-width:760px}
+.phase3-page :is(.svc-card,.portfolio-tile,.portfolio-case,.programme-card,.lesson-card,.goal-card,.flagship-card,.publisher-service-card,.book-type-card,.featured-book,.music-service-card,.featured-music,.platform-card,.insight-card,.category-card,.contact-path-card,.related-card){
+  position:relative;overflow:hidden;border:1px solid var(--p3-line)!important;border-radius:var(--p3-radius)!important;
+  box-shadow:0 12px 35px rgba(0,8,24,.18);transition:transform .45s cubic-bezier(.2,.8,.2,1),box-shadow .45s,border-color .45s,background .45s;
+}
+.phase3-page :is(.svc-card,.portfolio-tile,.portfolio-case,.programme-card,.lesson-card,.goal-card,.flagship-card,.publisher-service-card,.book-type-card,.featured-book,.music-service-card,.featured-music,.platform-card,.insight-card,.category-card,.contact-path-card,.related-card)::after{
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .45s;
+  background:linear-gradient(135deg,rgba(66,232,255,.09),transparent 38%,rgba(155,108,255,.08));
+}
+.phase3-page :is(.svc-card,.portfolio-tile,.portfolio-case,.programme-card,.lesson-card,.goal-card,.flagship-card,.publisher-service-card,.book-type-card,.featured-book,.music-service-card,.featured-music,.platform-card,.insight-card,.category-card,.contact-path-card,.related-card):hover{
+  transform:translateY(-9px);border-color:rgba(66,232,255,.42)!important;box-shadow:var(--p3-shadow)
+}
+.phase3-page :is(.svc-card,.portfolio-tile,.portfolio-case,.programme-card,.lesson-card,.goal-card,.flagship-card,.publisher-service-card,.book-type-card,.featured-book,.music-service-card,.featured-music,.platform-card,.insight-card,.category-card,.contact-path-card,.related-card):hover::after{opacity:1}
+.phase3-page :is(.portfolio-tile-media,.portfolio-case-image,.market-product-thumb,.book-art,.music-art) img{transition:transform .7s cubic-bezier(.2,.8,.2,1),filter .7s}
+.phase3-page :is(.portfolio-tile,.portfolio-case,.flagship-card,.featured-book,.featured-music):hover img{transform:scale(1.045);filter:saturate(1.08) contrast(1.03)}
+.phase3-page .button{position:relative;overflow:hidden}.phase3-page .button::after{content:"";position:absolute;inset:-2px;transform:translateX(-130%) skewX(-20deg);background:linear-gradient(90deg,transparent,rgba(255,255,255,.28),transparent);transition:transform .75s}.phase3-page .button:hover::after{transform:translateX(130%) skewX(-20deg)}
+.phase3-page .phase3-toolbar{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 34px;padding:10px;border:1px solid var(--p3-line);background:rgba(8,20,38,.62);backdrop-filter:blur(16px);border-radius:18px;width:max-content;max-width:100%}
+.phase3-page .phase3-filter{appearance:none;border:0;border-radius:999px;padding:10px 16px;background:transparent;color:inherit;font:inherit;font-weight:700;cursor:pointer;transition:.3s}.phase3-page .phase3-filter:hover,.phase3-page .phase3-filter[aria-pressed="true"]{background:linear-gradient(135deg,rgba(66,232,255,.18),rgba(155,108,255,.18));box-shadow:inset 0 0 0 1px rgba(120,220,255,.22)}
+.phase3-hidden{display:none!important}
+.phase3-page .phase3-progress{position:fixed;top:0;left:0;z-index:9999;height:3px;width:100%;transform-origin:left;transform:scaleX(0);background:linear-gradient(90deg,var(--p3-blue),var(--p3-cyan),var(--p3-violet));box-shadow:0 0 18px rgba(66,232,255,.7);pointer-events:none}
+.phase3-page .phase3-cursor-glow{position:fixed;z-index:0;width:420px;height:420px;border-radius:50%;pointer-events:none;opacity:.18;filter:blur(70px);background:radial-gradient(circle,rgba(66,232,255,.5),rgba(90,125,255,.18) 45%,transparent 70%);transform:translate3d(-50%,-50%,0);transition:opacity .3s}
+.phase3-page .site-header,.phase3-page main,.phase3-page .site-footer{position:relative;z-index:1}
+.phase3-page .phase3-process{position:relative}.phase3-page :is(.svc-process-grid,.path-steps,.publishing-process,.music-process){position:relative}.phase3-page :is(.svc-process-grid,.path-steps)::before{content:"";position:absolute;left:4%;right:4%;top:50%;height:1px;background:linear-gradient(90deg,transparent,var(--p3-cyan),var(--p3-violet),transparent);opacity:.35;z-index:0}
+.phase3-page :is(.svc-process-grid,.path-steps)>*{position:relative;z-index:1}
+.phase3-page .newsletter,.phase3-page .final-cta{overflow:hidden}.phase3-page .newsletter::before,.phase3-page .final-cta::before{content:"";position:absolute;width:500px;height:500px;border-radius:50%;right:-180px;top:-250px;background:radial-gradient(circle,rgba(66,232,255,.22),transparent 68%);animation:p3float 9s ease-in-out infinite alternate;pointer-events:none}
+@keyframes p3float{to{transform:translate(-40px,55px) scale(1.12)}}
+.phase3-page .reveal,.phase3-page [data-p3-reveal]{will-change:transform,opacity}
+@media (max-width:800px){.phase3-page .phase3-cursor-glow{display:none}.phase3-page :is(.svc-process-grid,.path-steps)::before{display:none}.phase3-page .phase3-toolbar{width:100%;overflow:auto;flex-wrap:nowrap}.phase3-page .phase3-filter{white-space:nowrap}.phase3-page :is(.svc-card,.portfolio-tile,.programme-card,.goal-card,.publisher-service-card,.music-service-card,.insight-card):hover{transform:none}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.phase3-page *{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.phase3-page .phase3-cursor-glow{display:none}}
