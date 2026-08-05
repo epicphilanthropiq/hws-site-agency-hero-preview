@@ -1,5 +1,5 @@
 {
-  "last_reviewed": "2026-07-16",
+  "last_reviewed": "2026-08-05",
   "currency": "USD unless otherwise confirmed",
   "products": [
     {
@@ -15,10 +15,10 @@
       "code": "HWS-002",
       "name": "HW Press Book Engine",
       "status": "live",
-      "purchase_status": "checkout_not_confirmed",
-      "checkout_url": null,
+      "purchase_status": "verified_checkout",
+      "checkout_url": "https://shop.beacons.ai/helloworldstudiozw/24e12045-5c4e-4182-b4a0-3f1ee12c3e1a",
       "app_url": "https://hw-press-book-engine.vercel.app/",
-      "notes": "Live app link verified. No dedicated Beacons checkout URL supplied, so the website must not claim direct purchase availability."
+      "notes": "Dedicated Beacons checkout URL supplied and verified for website linking. Product purchase buttons should use this checkout URL."
     },
     {
       "code": "HWS-003",

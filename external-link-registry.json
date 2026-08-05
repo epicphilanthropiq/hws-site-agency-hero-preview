@@ -11,24 +11,6 @@
     ]
   },
   {
-    "url": "https://hw-press-book-engine.vercel.app/",
-    "domain": "hw-press-book-engine.vercel.app",
-    "category": "live_application",
-    "pages": [
-      "index.html",
-      "marketplace.html",
-      "press-book-engine.html"
-    ],
-    "labels": [
-      "02 Publishing Turn your idea into a book Move through research, writing, packaging and launch. Open Book Engine \u2192",
-      "02 Write and publish a book Move through research, validation, outlining, writing, editing, listing and launch. Open the Book Engine \u2192",
-      "Launch Tool \u2192",
-      "Launch the Book Engine",
-      "Launch Book Engine",
-      "Launch HW Press Book Engine"
-    ]
-  },
-  {
     "url": "https://hw-release-system-studio-6ahgoiy1v.vercel.app/",
     "domain": "hw-release-system-studio-6ahgoiy1v.vercel.app",
     "category": "live_application",
@@ -68,6 +50,21 @@
     "labels": [
       "Buy Agency Edition",
       "Buy Agency Edition \u2192"
+    ]
+  },
+  {
+    "url": "https://shop.beacons.ai/helloworldstudiozw/24e12045-5c4e-4182-b4a0-3f1ee12c3e1a",
+    "domain": "shop.beacons.ai",
+    "category": "checkout_or_store",
+    "pages": [
+      "marketplace.html",
+      "press-book-engine.html"
+    ],
+    "labels": [
+      "Get HW Press Book Engine",
+      "Get HW Press Book Engine \u2192",
+      "Get Instant Access",
+      "Get Instant Access \u2192"
     ]
   }
 ]
